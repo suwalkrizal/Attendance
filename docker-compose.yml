@@ -21,7 +21,7 @@ services:
     container_name: attendance_backend
 
   db:
-    container_name: text_db
+    container_name: attendance_db
     image: postgis/postgis:14-3.3
     environment:
       - POSTGRES_DB=attendancedb
