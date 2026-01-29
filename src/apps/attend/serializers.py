@@ -1,9 +1,9 @@
 from rest_framework import serializers
 from .models import(
-    'Teacher',
-    'Room',
-    'Student',
-    'Attendance',
+    Teacher,
+    Room,
+    Student,
+    Attendance,
 )
 
 class RoomSerializer(serializers.ModelSerializer):
